@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(18, 18, 18);
+  color: rgb(255, 255, 255);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(36, 36, 43);
+  padding: 0.2rem 1rem;
+}
+
+.nav-container {
+  display: flex;
+  width: 12rem;
+  justify-content: space-between;
+}
+
+.input {
+  width: 20rem;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  border: none;
+  outline: none;
+}
+
+.body {
+  padding: 2rem 3rem;
+}
+
+.songs-container {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 4rem;
+  column-gap: 4rem;
+}
+
+.heading {
+  margin: 2rem 0;
+}
+
+.img {
+  height: 8rem;
+  width: 8rem;
+  border-radius: 0.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.single-song-container {
+  border: 0.5rem solid rgb(255, 255, 255);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.single-song-container h4 {
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+.single-song-container:hover {
+  background-color: rgb(36, 36, 43);
+}
+
+.footer {
+  padding: 3rem 6rem;
+  background-color: rgb(36, 36, 43);
+}
+
+.footer h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  width: 30rem;
+  margin: 0 auto;
+}
+
+.icons i:hover {
+  color: #3f729b;
+  cursor: pointer;
+}
+
+.brand {
+  cursor: pointer;
+}
